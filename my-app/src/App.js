@@ -1,13 +1,10 @@
-import css from './App.module.css';
-import Sidebar from "./components/Sidebar";
+import './App.module.css';
+import EventBinding from "./components/EventBinding";
 
 function App() {
-  return (
-    <div className={css.App}>
-      {/* Add your components here */}
-      <Sidebar />
-    </div>
-  );
+  return <div className="App">
+        <EventBinding />
+    </div>;
 }
 
 export default App;
