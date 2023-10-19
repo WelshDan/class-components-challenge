@@ -1,8 +1,9 @@
 import css from './App.css';
-import RenderingLists from './components/RenderingLists';
+import Content from './components/Content';
+
 function App() {
   return <div className="App">
-        <RenderingLists />
+        <Content />
     </div>;
 }
 
