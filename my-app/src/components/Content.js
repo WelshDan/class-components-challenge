@@ -14,11 +14,11 @@ export class Content extends Component {
     
     componentDidMount() {
         setTimeout(()=>{
-            this.state({
+            this.setState({
                 isLoaded: true,
             })
         }, 2000)
-}
+    }
 
     render() {
         return (

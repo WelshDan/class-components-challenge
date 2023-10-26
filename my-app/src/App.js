@@ -1,16 +1,18 @@
 import css from './App.css';
 import Content from './components/Content';
-import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
 import NavBarForm from './components/NavBarForm';
 import SideBar from './components/Sidebar';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
     <div className={css.App}>
-        <NavBarForm />
-        <SideBar />
+        <SearchBar />
         <Content />
-        <ControlledForm />
+        <UncontrolledForm />
+        <SideBar />
+        <NavBarForm />
     </div>
   );
 }
