@@ -1,20 +1,10 @@
-import css from './App.css';
-import Content from './components/Content';
-import UncontrolledForm from './components/UncontrolledForm';
-import NavBarForm from './components/NavBarForm';
-import SideBar from './components/Sidebar';
-import SearchBar from './components/SearchBar';
+import "./App.css";
+import UseStateWithArrays from "./components/UseStateWithArrays";
 
 function App() {
-  return (
-    <div className={css.App}>
-        <SearchBar />
-        <Content />
-        <UncontrolledForm />
-        <SideBar />
-        <NavBarForm />
+  return <div className="App">
+        <UseStateWithArrays />
     </div>
-  );
 }
 
 export default App;
