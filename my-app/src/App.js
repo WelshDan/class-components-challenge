@@ -1,9 +1,15 @@
 import "./App.css";
-import UseStateWithArrays from "./components/UseStateWithArrays";
+import Sidebar from "./components/Sidebar";
+import NavBarForm from "./components/NavBarForm";
+import Content from "./components/Content";
+import ContentHooks from "./components/ContentHooks";
 
 function App() {
   return <div className="App">
-        <UseStateWithArrays />
+    <NavBarForm />
+    <Sidebar />
+    <Content />
+    <ContentHooks />
     </div>
 }
 
