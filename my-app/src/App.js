@@ -1,15 +1,9 @@
 import "./App.css";
-import Sidebar from "./components/Sidebar";
-import NavBarForm from "./components/NavBarForm";
-import Content from "./components/Content";
-import ContentHooks from "./components/ContentHooks";
+import HTTPRequests from "./components/HTTPRequests";
 
 function App() {
   return <div className="App">
-    <NavBarForm />
-    <Sidebar />
-    <Content />
-    <ContentHooks />
+    <HTTPRequests />
     </div>
 }
 
