@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export class HTTPRequests extends Component {
     constructor(props) {
-        super(props)
+        super(props);
     
         this.state = {
              posts: [],
