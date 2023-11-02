@@ -8,23 +8,23 @@ class NavBarForm extends Component {
         super(props)
 
         this.state = {
-            isLoggedIn: true
+            isLoggedIn: true,
         }
     }
 
-    handleClick = () => {
+    handleButtonClick = () => {
         this.setState((prevState) => ({
-            isLoggedIn: prevState.isLoggedIn ? false : true
+            isLoggedIn: prevState.isLoggedIn ? false: true
         }), () => console.log(this.state.isLoggedIn))
     }
 
     render () {
         return (
-            <div className={css.NavBar}>
+            <div className= {css.NavBar}>
                 <h1>My Gallery</h1>
                 <NavBarChild
                 isLoggedIn={this.state.isLoggedIn}
-                handleClick={this.handleClick}
+                handleClick={this.handleButtonClick}
                 />
             </div>
         )
